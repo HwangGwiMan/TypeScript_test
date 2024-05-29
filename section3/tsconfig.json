@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    // 컴파일한 자바스크립트의 형식
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist", // 컴파일 결과 생성되는 자바스크립트 파일의 위치
+    "strict": true, // 엄격한 검사
+    //"strictNullChecks": false, // 엄걱한 Null 검사
+    "moduleDetection": "force", // 개별 TS 파일을 로컬 모듈로 취급
+    "skipLibCheck": true
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"] // src 폴더 아래 모든 파일 한번에 컴파일
+}
